@@ -1,9 +1,13 @@
 {
-  "name": "component-ui",
+  "name": "@prosperchihimba/component-ui",
   "version": "0.0.1",
   "description": "React component library",
   "scripts": {
     "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProsperChihimba/component-ui.git"
   },
   "author": "Prosper Absalom",
   "license": "ISC",
@@ -15,7 +19,8 @@
     "react": "^18.2.0",
     "rollup": "^2.78.0",
     "rollup-plugin-dts": "^4.2.2",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "tslib": "^2.4.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -24,6 +29,10 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "tslib": "^2.4.0"
-  }
+    
+  },
+  "bugs": {
+    "url": "https://github.com/meri-ui/components/issues"
+  },
+  "homepage": "https://github.com/meri-ui/components#readme"
 }
